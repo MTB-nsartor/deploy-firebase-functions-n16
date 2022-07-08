@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: jsryudev/deploy-firebase-functions@v0.0.2
+    - uses: MTB-nsartor/deploy-firebase-functions-n16@v0.0.3
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         FIREBASE_PROJECT: firebase-project-id
@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: jsryudev/deploy-firebase-functions@v0.0.2
+    - uses: MTB-nsartor/deploy-firebase-functions-n16@v0.0.3
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         FIREBASE_PROJECT: firebase-project-id
