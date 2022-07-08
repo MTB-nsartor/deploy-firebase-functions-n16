@@ -1,9 +1,9 @@
-name: 'Deploy to Firebase Cloud Functions'
-author: 'jsryudev <jsryu.dev@gmail.com>'
-description: 'A GitHub Action to deploy to Firebase Cloud Functions'
+name: 'Deploy to Firebase Cloud Functions (Node 16)'
+author: 'jsryudev <nsartor@mindthebridge.org>'
+description: 'A GitHub Action to deploy to Firebase Cloud Functions (Node 16)'
 runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
-  icon: 'cloud'
-  color: 'black'
+  icon: 'cloud-rain'
+  color: 'blue'
